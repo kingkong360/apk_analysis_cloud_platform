@@ -1,2 +1,6 @@
-# Initial page
+---
+description: Basic introduction of the project
+---
+
+# Introduction
 
