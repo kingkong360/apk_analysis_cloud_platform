@@ -118,3 +118,25 @@ Request Parameters:
 | 电话 | phoneNumber | string | Optional | |
 
 ---
+
+- /login
+
+登录
+
+Request Method: **Login**
+
+Request Parameters:
+| Significance | Field | Type | Required | Description |
+| :-: | :-: | :-: | :-: | :-: |
+| 用户名 | username | string | yes | |
+| 密码 | password | string | yes | |
+
+Response Datas:
+| Significance | Field | Type | Required | Description |
+| :-: | :-: | :-: | :-: | :-: |
+| 用户名 | username | string | yes | |
+| 状态 | stats | int | yes | |
+| API_authkey | authkey | string(32) | yes | |
+| 信息 | msg | string | yes | |
+
+---
